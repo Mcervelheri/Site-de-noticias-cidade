@@ -1,3 +1,4 @@
+/* Configura layout do topo*/
 * {
     margin: 0;
     padding: 0;
@@ -69,4 +70,55 @@ body.fotos #navegacao a#fotos
     color: #fff;
     background: #de003e;
     cursor: text;
+}
+
+/* Configura layout de colunas */
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background: yellow;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: blue;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-colunas #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background: green;
+}
+
+
+
+/*Rodapé*/
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
 }
